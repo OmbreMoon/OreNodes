@@ -2,12 +2,28 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 321981,
-    "separation": 1,
-    "spacing": 2
+    "separation": 2,
+    "spacing": 5
   },
   "structures": [
     {
-      "structure": "orenodes:ore_node",
+      "structure": "orenodes:gold_ore_node",
+      "weight": 1
+    },
+    {
+      "structure": "orenodes:hematite_ore_node",
+      "weight": 1
+    },
+    {
+      "structure": "orenodes:malachite_ore_node",
+      "weight": 1
+    },
+    {
+      "structure": "orenodes:sphalerite_ore_node",
+      "weight": 1
+    },
+    {
+      "structure": "orenodes:wolframite_ore_node",
       "weight": 1
     }
   ]

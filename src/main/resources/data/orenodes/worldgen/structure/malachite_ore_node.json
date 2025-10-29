@@ -1,0 +1,7 @@
+{
+  "type": "orenodes:ore_node",
+  "biomes": "#minecraft:stronghold_biased_to",
+  "node": "malachite",
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}
