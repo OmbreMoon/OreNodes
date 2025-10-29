@@ -1,0 +1,6 @@
+{
+  "type": "orenodes:ore_node",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}
