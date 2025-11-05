@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "orenodes:block/redstone_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "orenodes:block/redstone_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "orenodes:block/redstone_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "orenodes:block/redstone_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "orenodes:block/redstone_bud"
+    },
+    "facing=west": {
+      "model": "orenodes:block/redstone_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

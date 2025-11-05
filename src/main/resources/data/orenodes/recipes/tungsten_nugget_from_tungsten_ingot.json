@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tungsten_nugget",
+  "ingredients": [
+    {
+      "item": "orenodes:tungsten_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "orenodes:tungsten_nugget"
+  }
+}

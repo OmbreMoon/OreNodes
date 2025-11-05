@@ -5,6 +5,17 @@
     "orenodes:raw_native_hematite_ore",
     "orenodes:raw_native_malachite_ore",
     "orenodes:raw_native_sphalerite_ore",
-    "orenodes:raw_native_wolframite_ore"
+    "orenodes:raw_native_wolframite_ore",
+    "orenodes:raw_native_coal_ore",
+    "orenodes:raw_native_redstone_ore",
+    "orenodes:raw_native_andesite",
+    "orenodes:raw_native_gold_block",
+    "orenodes:raw_hematite_block",
+    "orenodes:raw_malachite_block",
+    "orenodes:raw_sphalerite_block",
+    "orenodes:raw_wolframite_block",
+    "orenodes:redstone_bulb",
+    "orenodes:redstone_bud",
+    "orenodes:scarletine"
   ]
 }

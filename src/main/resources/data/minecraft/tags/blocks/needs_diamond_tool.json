@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "orenodes:raw_native_wolframite_ore"
+    "orenodes:raw_native_wolframite_ore",
+    "orenodes:raw_wolframite_block"
   ]
 }

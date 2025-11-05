@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "orenodes:raw_malachite"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "chance": 1.0,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "orenodes:crushed_veridium"
+    }
+  ]
+}

@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "orenodes.refmap.json",
   "mixins": [
+    "BlockHelperMixin"
   ],
   "client": [
   ],

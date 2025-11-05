@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "raw_wolframite",
+  "ingredients": [
+    {
+      "item": "orenodes:raw_wolframite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "orenodes:raw_wolframite"
+  }
+}

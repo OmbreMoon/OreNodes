@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "orenodes:block/raw_native_redstone_ore"
+    }
+  }
+}

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "orenodes:raw_native_malachite"
+          "name": "orenodes:raw_malachite"
         }
       ],
       "rolls": 1.0

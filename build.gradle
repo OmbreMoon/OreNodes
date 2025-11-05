@@ -68,6 +68,7 @@ repositories {
     maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
     maven { url = "https://maven.ithundxr.dev/mirror" } // Registrate
     maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" } // ForgeConfigAPIPort
+    maven { url = "https://api.modrinth.com/maven" }
 }
 
 mixin {
@@ -85,6 +86,8 @@ dependencies {
     implementation(fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}"))
     compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.4.1"))
     implementation("io.github.llamalad7:mixinextras-forge:0.4.1")
+    runtimeOnly(fg.deobf("maven.modrinth:jade:${project.jade_version}"))
+    compileOnly(fg.deobf("maven.modrinth:jade:${project.jade_version}"))
 }
 
 tasks.named('processResources', ProcessResources).configure {

@@ -8,7 +8,10 @@ public enum NodeType implements StringRepresentable {
     HEMATITE("hematite"),
     MALACHITE("malachite"),
     SPHALERITE("sphalerite"),
-    WOLFRAMITE("wolframite");
+    WOLFRAMITE("wolframite"),
+    COAL("coal"),
+    ANDESITE("andesite"),
+    REDSTONE("redstone");
 
     public static final Codec<NodeType> CODEC = StringRepresentable.fromEnum(NodeType::values);
     private final String name;

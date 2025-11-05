@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "raw_native_gold",
+  "ingredients": [
+    {
+      "item": "orenodes:raw_native_gold_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "orenodes:raw_native_gold"
+  }
+}

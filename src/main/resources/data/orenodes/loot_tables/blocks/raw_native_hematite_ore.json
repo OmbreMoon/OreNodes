@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "orenodes:raw_native_hematite"
+          "name": "orenodes:raw_hematite"
         }
       ],
       "rolls": 1.0

@@ -2,8 +2,8 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 321981,
-    "separation": 2,
-    "spacing": 5
+    "separation": 3,
+    "spacing": 7
   },
   "structures": [
     {
@@ -24,6 +24,18 @@
     },
     {
       "structure": "orenodes:wolframite_ore_node",
+      "weight": 1
+    },
+    {
+      "structure": "orenodes:coal_ore_node",
+      "weight": 1
+    },
+    {
+      "structure": "orenodes:andesite_ore_node",
+      "weight": 1
+    },
+    {
+      "structure": "orenodes:redstone_ore_node",
       "weight": 1
     }
   ]

@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "orenodes:redstone"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 3,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:redstone"
+    }
+  ]
+}

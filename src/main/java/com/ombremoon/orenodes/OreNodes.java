@@ -9,8 +9,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(Constants.MOD_ID)
 public class OreNodes {
 
-    public OreNodes(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
+    public OreNodes() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         CommonClass.init(modEventBus);

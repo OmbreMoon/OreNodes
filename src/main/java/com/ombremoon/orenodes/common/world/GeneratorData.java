@@ -87,13 +87,10 @@ public class GeneratorData extends SavedData {
             for (int i = 0; i < generators.size(); i++) {
                 CompoundTag tag = generators.getCompound(i);
                 BlockPos blockPos = NbtUtils.readBlockPos(tag);
-                GeneratorValue value = GeneratorValue.CODEC
+                GeneratorValue.CODEC
                         .parse(NbtOps.INSTANCE, tag)
                         .resultOrPartial(LOGGER::error)
-                        .orElse(null);
-                if (value != null) {
-                    data.cachedGenerators.put(blockPos, value);
-                }
+                        .ifPresent(value -> data.cachedGenerators.put(blockPos, value));
             }
         }
         return data;

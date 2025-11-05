@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "raw_sphalerite",
+  "ingredients": [
+    {
+      "item": "orenodes:raw_sphalerite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "orenodes:raw_sphalerite"
+  }
+}

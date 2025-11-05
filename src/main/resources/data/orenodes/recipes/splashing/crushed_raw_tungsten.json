@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "orenodes:crushed_raw_tungsten"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "orenodes:tungsten_nugget"
+    }
+  ]
+}

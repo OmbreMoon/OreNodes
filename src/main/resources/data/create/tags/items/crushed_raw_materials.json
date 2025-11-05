@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "orenodes:crushed_asurine",
+    "orenodes:crushed_veridium",
+    "orenodes:crushed_ochrum",
+    "orenodes:crushed_crimsite",
+    "orenodes:crushed_tuff"
+  ]
+}
